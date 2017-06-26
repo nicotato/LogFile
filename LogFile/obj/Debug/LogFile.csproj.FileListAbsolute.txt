@@ -1,0 +1,8 @@
+c:\users\ntato\documents\visual studio 2015\Projects\LogFile\LogFile\bin\Debug\LogFile.exe.config
+c:\users\ntato\documents\visual studio 2015\Projects\LogFile\LogFile\bin\Debug\LogFile.exe
+c:\users\ntato\documents\visual studio 2015\Projects\LogFile\LogFile\bin\Debug\LogFile.pdb
+c:\users\ntato\documents\visual studio 2015\Projects\LogFile\LogFile\obj\Debug\LogFile.Form1.resources
+c:\users\ntato\documents\visual studio 2015\Projects\LogFile\LogFile\obj\Debug\LogFile.Properties.Resources.resources
+c:\users\ntato\documents\visual studio 2015\Projects\LogFile\LogFile\obj\Debug\LogFile.csproj.GenerateResource.Cache
+c:\users\ntato\documents\visual studio 2015\Projects\LogFile\LogFile\obj\Debug\LogFile.exe
+c:\users\ntato\documents\visual studio 2015\Projects\LogFile\LogFile\obj\Debug\LogFile.pdb

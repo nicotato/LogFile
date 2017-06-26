@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LogFile2.exe" version="2.1.0.0" publicKeyToken="850de206fe0f0ae1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LogFile2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LogFile2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LogFile2.exe" size="17856">
+      <assemblyIdentity name="LogFile2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HyTF7ucsCutKr8mY0FoXh8/HjactQro8qSqD6P+ALgg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LogFile2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ALTIMETRIK\ntato" issuerKeyHash="c719ebc9993c908e6ba768c65438813f4346ddfd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>62S8XDc6LpxvcWmMqckZLYPJngBqi27f6aYmnnlDMZE=</DigestValue></Reference></SignedInfo><SignatureValue>CkG3wdChcOx9Bqng5xta4y6VEtYHTQhhQfL/yj5FXqF04XwLxYNy/dvukBp4hqqiThTubDIVEq++qJaVDng35iC+1AlzPZ5h5AEgtX1i41MVX7zuF+3rALy6ktPW+/K5DqTFqC6szYl6fxPqOjxQertEdL95AOv0+pvjERw+19g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qcgrGhGLqkWeMBctradmCF0WM3VRV0/3R21ZtKPmndMs7A6jHX2L2t6K6dBVZWjTyuUQENX7U2U/coE0kE2W+ooDacKCsnsPfT6HAAEpGhhTfrEUNSOzlCmed4ecUQiVEpgRcu99MrQow9H3Fzvj2UYscUJBqX+oDqDAMplzPME=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="913143799e26a6e9df6e8b6a009ec9832d19c9a98c69716f9c2e3a375cbc64eb" Description="" Url=""><as:assemblyIdentity name="LogFile2.exe" version="2.1.0.0" publicKeyToken="850de206fe0f0ae1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALTIMETRIK\ntato</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>N0j3uqKLSfbHkwEgTlqFQDyip6xVBsu2VKoKdBzulVo=</DigestValue></Reference></SignedInfo><SignatureValue>dvZfr5LXyF+ikiY1+JZ+oaaMVnNC0UR5N2RDhfJ7IfwbIJQvYo6qTK4qS9Jpr9X31vddDp2BsMp0wY/F894aQTjjMNQ7eTU544VCh8RaC0Ur0vxWVM6OwT3UvMivYJ4A+5EDxIGt3xR3uJTlOeerIdD4mCSDvYS7b0v+XF5k58Q=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qcgrGhGLqkWeMBctradmCF0WM3VRV0/3R21ZtKPmndMs7A6jHX2L2t6K6dBVZWjTyuUQENX7U2U/coE0kE2W+ooDacKCsnsPfT6HAAEpGhhTfrEUNSOzlCmed4ecUQiVEpgRcu99MrQow9H3Fzvj2UYscUJBqX+oDqDAMplzPME=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQETFd+Xs+RplGYGCGrVFUdTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQQBMAFQASQBNAEUAVABSAEkASwBcAG4AdABhAHQAbzAeFw0xNzAzMjkxMzQ2MzJaFw0xODAzMjkxOTQ2MzJaMCsxKTAnBgNVBAMeIABBAEwAVABJAE0ARQBUAFIASQBLAFwAbgB0AGEAdABvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpyCsaEYuqRZ4wFy2tp2YIXRYzdVFXT/dHbVm0o+ad0yzsDqMdfYva3orp0FVlaNPK5RAQ1ftTZT9ygTSQTZb6igNpwoKyew99PocAASkaGFN+sRQ1I7OUKZ53h5xRCJUSmBFy730ytCjD0fcXO+PZRixxQkGpf6gOoMAymXM8wQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAF1vkDiZqzGxS9QjtbOAXFJr/g2EIIkXs2FrhGnJ3Yw0yRJ1xZziMMSSyltktUcbEixQxa42skl1qy5Xt7p9lmUd7ISGJFC3xyH+zsCT3/reVfw43DYTzvyfXF2c8peGNEHP0bG0DPtVQtUxIgXbSqC0TAfZEvASeXQZZVLJsgfV</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

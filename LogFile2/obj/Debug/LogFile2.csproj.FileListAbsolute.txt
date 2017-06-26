@@ -1,0 +1,12 @@
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\bin\Debug\LogFile2.exe.config
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\bin\Debug\LogFile2.exe
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\bin\Debug\LogFile2.pdb
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\obj\Debug\LogFile2.Form1.resources
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\obj\Debug\LogFile2.Properties.Resources.resources
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\obj\Debug\LogFile2.csproj.GenerateResource.Cache
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\obj\Debug\LogFile2.exe
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\obj\Debug\LogFile2.pdb
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\bin\Debug\LogFile2.exe.manifest
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\bin\Debug\LogFile2.application
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\obj\Debug\LogFile2.exe.manifest
+C:\Users\ntato\Documents\Visual Studio 2015\Projects\LogFile\LogFile2\obj\Debug\LogFile2.application
